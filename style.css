@@ -19,7 +19,7 @@ body {
 }
 .carousel-list {
   width: 600px;
-　height: calc(600px * 0.5625);
+  height: calc(600px * 0.5625);
   margin-right: 30px;
 }
 .carousel-img {
@@ -39,4 +39,32 @@ body {
     height: calc(300px * 0.5625);
     margin-right: 0;
   }
+}
+button {
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  vertical-align: middle;
+  color: inherit;
+  font: inherit;
+  border: 0;
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border-radius: 0;
+}
+.arow-wrap {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.arrow-btn {
+  width: 48px;
+  height: 48px;
+  background-color: cornflowerblue;
 }
